@@ -265,17 +265,17 @@ h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: rgba(202, 206, 221, 0.8);
+  color: rgba(44, 44, 44, 0.8);
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
   outline: none;
 }
 
-.nav-menu .menu-active a,
+/* .nav-menu .menu-active a,
 .nav-menu a:hover {
   color: #fff;
-}
+} */
 
 .nav-menu > li {
   margin-left: 8px;
@@ -655,7 +655,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg");
+  background: rgb(32, 37, 54);
   background-size: cover;
   overflow: hidden;
   position: relative;
