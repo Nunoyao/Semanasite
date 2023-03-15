@@ -819,6 +819,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #0e1b4d;
   color: #fff;
   padding: 10px 100px;
+  pointer-events: none;
 }
 
 #schedule .nav-tabs a.active {
@@ -1399,7 +1400,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top {
-  background: #040919;
+  background: #222636;
   padding: 60px 0 30px 0;
 }
 
@@ -1433,7 +1434,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #222636;
+  background: #040919;
   color: #eee;
   line-height: 1;
   padding: 8px 0;
@@ -1555,7 +1556,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #contact .contact-phone {
-    border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
 }
