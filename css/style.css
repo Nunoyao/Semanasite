@@ -5,6 +5,18 @@
   License: https://bootstrapmade.com/license/
 */
 
+.picture-wrapper {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/

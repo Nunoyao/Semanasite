@@ -90,8 +90,21 @@
 
   <section id="custom-intro">
     <div class="mx-auto d-block" style="margin-top: 80px; max-width: 1600px;">
-      <img class="d-block w-100" src="img/intro-bg.png">
-    </div>
+      <!-- <img class="d-block w-100" src="img/intro-bg.png"> -->
+      <!-- <picture>
+        <source media="(min-width: 900px)" srcset="img/intro-bg.png">
+        <source media="(min-width: 480px)" srcset="img/mobile-view.png">
+        <img src="img/intro-bg.png" alt="IfItDoesntMatchAnyMedia">
+    </picture> -->
+    
+
+  </div>
+<picture class="picture-wrapper">
+  <source media="(max-width: 799px)" srcset="img/mobile-view.png">
+  <source media="(min-width: 800px)" srcset="img/intro-bg.png">
+  <img src="img/intro-bg.png" alt="Chris standing up holding his daughter Elva">
+</picture>
+
   </section>
 
   <main id="main">
