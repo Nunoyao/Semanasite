@@ -481,12 +481,31 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
+  background: url(../img/intro-2.jpg) top center;
   background-size: cover;
   background-position: center;
   overflow: hidden;
   position: relative;
 }
+
+/* For desktop mode */
+@media only screen and (min-width: 768px) {
+  #intro-image {
+    max-width: 1000px; /* Adjust this value according to your needs */
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+/* For mobile mode */
+@media only screen and (max-width: 767px) {
+  #intro-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
 
 #intro:before {
   content: "";
@@ -922,7 +941,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #venue .venue-info {
-  background: url("../img/venue-info-bg.jpg") top center no-repeat;
+  background: url("../img/venue-gallery/utad_drone_dtom_1.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
@@ -931,7 +950,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #venue .venue-info:before {
   content: "";
-  background: rgba(13, 20, 41, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
