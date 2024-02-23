@@ -1245,32 +1245,11 @@ h6 {
 --------------------------------------------------------------*/
 #subscribe {
   padding: 60px;
-  background: url(../img/subscribe-bg.jpg) center center no-repeat;
   background-size: cover;
   overflow: hidden;
   position: relative;
 }
 
-#subscribe:before {
-  content: "";
-  background: rgba(6, 12, 34, 0.6);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-@media (min-width: 1024px) {
-  #subscribe {
-    background-attachment: fixed;
-  }
-}
-
-#subscribe .section-header h2,
-#subscribe p {
-  color: #fff;
-}
 
 #subscribe input {
   background: #fff;
@@ -1289,7 +1268,7 @@ h6 {
   }
 }
 
-#subscribe button {
+#subscribe a {
   border: 0;
   padding: 9px 25px;
   cursor: pointer;
@@ -1301,12 +1280,12 @@ h6 {
   border-radius: 50px;
 }
 
-#subscribe button:hover {
+#subscribe a:hover {
   background: #e0072f;
 }
 
 @media (max-width: 460px) {
-  #subscribe button {
+  #subscribe a {
     margin-top: 10px;
   }
 }
