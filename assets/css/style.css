@@ -1120,8 +1120,8 @@ h6 {
 }
 
 #supporters .supporters-wrap {
-  border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
+  /* border-top: 1px solid #e0e5fa; */
+  /* border-left: 1px solid #e0e5fa; */
   margin-bottom: 30px;
 }
 
@@ -1130,8 +1130,8 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid #e0e5fa;
-  border-bottom: 1px solid #e0e5fa;
+  /* border-right: 1px solid #e0e5fa; */
+  /* border-bottom: 1px solid #e0e5fa; */
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
   height: 160px;
@@ -1144,6 +1144,55 @@ h6 {
 #supporters img {
   transition: all 0.4s ease-in-out;
 }
+
+.gold-ring {
+  position: relative;
+}
+
+.gold-ring::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100%);
+  height: calc(100%);
+  border: 10px solid;
+  border-image: linear-gradient(to right, #ffc941, #ffd700) 1;
+  z-index: 2; /* Ensure it's behind the main content */
+}
+
+.silver-ring {
+  position: relative;
+}
+
+.silver-ring::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100%);
+  height: calc(100%);
+  border: 10px solid;
+  border-image: linear-gradient(to right, #a9a9a9, #c0c0c0) 1;
+  z-index: 2; /* Ensure it's behind the main content */
+}
+
+.bronze-ring {
+  position: relative;
+}
+
+.bronze-ring::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100%);
+  height: calc(100%);
+  border: 10px solid;
+  border-image: linear-gradient(to right, #8c7853, #cd7f32) 1;
+  z-index: 2; /* Ensure it's behind the main content */
+}
+
 
 /*--------------------------------------------------------------
 # Companies Section
