@@ -365,7 +365,7 @@ h6 {
   transition: 0.5s;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1300px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -382,7 +382,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background:  rgba(255, 255, 255, 1);
   transition: 0.3s;
   z-index: 999;
 }
@@ -411,6 +411,17 @@ h6 {
 
 .navbar-mobile>ul>li {
   padding: 0;
+  width: 100%; /* Make sure list items fill the container horizontally */
+  text-align: center; /* Align text content horizontally */
+}
+
+.navbar-mobile>ul>li>a {
+  display: block; /* Ensure the <a> tag fills the entire width of the list item */
+}
+
+.navbar-mobile>ul {
+  margin: 0; /* Reset default margin for the ul element */
+  padding: 0; /* Reset default padding for the ul element */
 }
 
 .navbar-mobile a:hover:before,
@@ -429,7 +440,8 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #28a745;
+  color: #152b79;;
+  background-color:  rgba(40, 167, 70, 0.26);
 }
 
 .navbar-mobile .getstarted,
